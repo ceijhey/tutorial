@@ -161,7 +161,7 @@
              bitRate="25000000"
              width="1280"
              height="720"
-             frameRate="30" />
+             frameRate="60" />
 
       <Audio codec="aac"
              bitRate="256000"
@@ -174,7 +174,7 @@
              bitRate="40000000"
              width="1920"
              height="1080"
-             frameRate="30" />
+             frameRate="60" />
 
       <Audio codec="aac"
              bitRate="256000"
@@ -213,7 +213,7 @@
             bitRate="42000000"
             width="4096"
             height="2160"
-            frameRate="24" />
+            frameRate="60" />
 
       <Audio codec="aac"
             bitRate="256000"
@@ -226,7 +226,7 @@
             bitRate="42000000"
             width="3840"
             height="2160"
-            frameRate="30" />
+            frameRate="60" />
 
       <Audio codec="aac"
             bitRate="256000"
@@ -364,7 +364,7 @@
              bitRate="14000000"
              width="1280"
              height="720"
-             frameRate="30" />
+             frameRate="60" />
 
       <!-- audio setting is ignored -->
       <Audio codec="aac"
@@ -378,7 +378,7 @@
              bitRate="20000000"
              width="1920"
              height="1080"
-             frameRate="30" />
+             frameRate="60" />
 
       <!-- audio setting is ignored -->
       <Audio codec="aac"
@@ -546,7 +546,7 @@
              bitRate="14000000"
              width="1280"
              height="720"
-             frameRate="30" />
+             frameRate="60" />
 
       <Audio codec="aac"
              bitRate="256000"
@@ -559,7 +559,7 @@
              bitRate="20000000"
              width="1920"
              height="1080"
-             frameRate="30" />
+             frameRate="60" />
 
       <Audio codec="aac"
              bitRate="256000"
@@ -697,7 +697,7 @@
              bitRate="8000000"
              width="1280"
              height="720"
-             frameRate="30" />
+             frameRate="60" />
 
       <!-- audio setting is ignored -->
       <Audio codec="aac"
@@ -711,7 +711,7 @@
              bitRate="20000000"
              width="1920"
              height="1080"
-             frameRate="30" />
+             frameRate="60" />
 
       <!-- audio setting is ignored -->
       <Audio codec="aac"
@@ -800,7 +800,7 @@
              bitRate="14000000"
              width="1280"
              height="720"
-             frameRate="30" />
+             frameRate="60" />
 
       <Audio codec="aac"
              bitRate="256000"
@@ -813,7 +813,7 @@
              bitRate="20000000"
              width="1920"
              height="1080"
-             frameRate="30" />
+             frameRate="60" />
 
       <Audio codec="aac"
              bitRate="256000"
@@ -1003,7 +1003,7 @@
              bitRate="14000000"
              width="1280"
              height="720"
-             frameRate="30" />
+             frameRate="60" />
 
       <!-- audio setting is ignored -->
       <Audio codec="aac"
@@ -1017,7 +1017,7 @@
              bitRate="20000000"
              width="1920"
              height="1080"
-             frameRate="30" />
+             frameRate="60" />
 
       <!-- audio setting is ignored -->
       <Audio codec="aac"
@@ -1160,7 +1160,7 @@
              bitRate="14000000"
              width="1280"
              height="720"
-             frameRate="30" />
+             frameRate="60" />
 
       <Audio codec="aac"
              bitRate="256000"
@@ -1173,7 +1173,7 @@
              bitRate="20000000"
              width="1920"
              height="1080"
-             frameRate="30" />
+             frameRate="60" />
 
       <Audio codec="aac"
              bitRate="256000"
@@ -1363,7 +1363,7 @@
              bitRate="14000000"
              width="1280"
              height="720"
-             frameRate="30" />
+             frameRate="60" />
 
       <!-- audio setting is ignored -->
       <Audio codec="aac"
@@ -1377,7 +1377,7 @@
              bitRate="20000000"
              width="1920"
              height="1080"
-             frameRate="30" />
+             frameRate="60" />
 
       <!-- audio setting is ignored -->
       <Audio codec="aac"
