@@ -130,7 +130,7 @@
                    bitRate="12000000"
                    width="1280"
                    height="720"
-                   frameRate="30" />
+                   frameRate="60" />
             <Audio codec="aac"
                    bitRate="128000"
                    sampleRate="48000"
@@ -142,7 +142,7 @@
                    bitRate="17000000"
                    width="1920"
                    height="1080"
-                   frameRate="30" />
+                   frameRate="60" />
             <Audio codec="aac"
                    bitRate="128000"
                    sampleRate="48000"
@@ -190,7 +190,7 @@
                    bitRate="25000000"
                    width="2560"
                    height="1440"
-                   frameRate="30" />
+                   frameRate="60" />
             <Audio codec="aac"
                    bitRate="256000"
                    sampleRate="48000"
@@ -202,7 +202,7 @@
                    bitRate="15000000"
                    width="2048"
                    height="1080"
-                   frameRate="30" />
+                   frameRate="60" />
             <Audio codec="aac"
                    bitRate="256000"
                    sampleRate="48000"
@@ -214,7 +214,7 @@
                    bitRate="24000000"
                    width="3840"
                    height="2160"
-                   frameRate="30" />
+                   frameRate="60" />
             <Audio codec="aac"
                    bitRate="256000"
                    sampleRate="48000"
@@ -265,7 +265,7 @@
                    bitRate="12000000"
                    width="1280"
                    height="720"
-                   frameRate="30" />
+                   frameRate="60" />
             <!-- audio setting is ignored -->
             <Audio codec="aac"
                    bitRate="128000"
@@ -278,7 +278,7 @@
                    bitRate="17000000"
                    width="1920"
                    height="1080"
-                   frameRate="30" />
+                   frameRate="60" />
             <!-- audio setting is ignored -->
             <Audio codec="aac"
                    bitRate="128000"
@@ -336,7 +336,7 @@
                    bitRate="12000000"
                    width="1280"
                    height="720"
-                   frameRate="30" />
+                   frameRate="60" />
             <Audio codec="aac"
                    bitRate="128000"
                    sampleRate="48000"
@@ -348,7 +348,7 @@
                    bitRate="2000000"
                    width="720"
                    height="480"
-                   frameRate="60" />
+                   frameRate="30" />
             <Audio codec="aac"
                    bitRate="256000"
                    sampleRate="48000"
@@ -423,7 +423,7 @@
                    bitRate="12000000"
                    width="1280"
                    height="720"
-                   frameRate="30" />
+                   frameRate="60" />
             <!-- audio setting is ignored -->
             <Audio codec="aac"
                    bitRate="128000"
@@ -473,17 +473,17 @@
         maxHFRMode="0"  />
 
     <AudioEncoderCap name="aac" enabled="true"
-        minBitRate="758" maxBitRate="288000"
+        minBitRate="758" maxBitRate="320000"
         minSampleRate="8000" maxSampleRate="48000"
         minChannels="1" maxChannels="2" />
 
     <AudioEncoderCap name="heaac" enabled="true"
-        minBitRate="8000" maxBitRate="64000"
+        minBitRate="8000" maxBitRate="320000"
         minSampleRate="16000" maxSampleRate="48000"
         minChannels="1" maxChannels="2" />
 
     <AudioEncoderCap name="aaceld" enabled="true"
-        minBitRate="16000" maxBitRate="192000"
+        minBitRate="16000" maxBitRate="320000"
         minSampleRate="16000" maxSampleRate="48000"
         minChannels="1" maxChannels="2" />
 
@@ -520,7 +520,7 @@
     -->
     <VideoEditorCap  maxInputFrameWidth="1920"
         maxInputFrameHeight="1080" maxOutputFrameWidth="1920"
-        maxOutputFrameHeight="1080" maxPrefetchYUVFrames="10"/>
+        maxOutputFrameHeight="1080" maxPrefetchYUVFrames="15"/>
     <!--
         The VideoEditor Export codec profile and level values
         correspond to the values in OMX_Video.h.
