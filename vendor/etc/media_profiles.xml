@@ -27,7 +27,7 @@
 <!ATTLIST EncoderProfile duration (30|60) #REQUIRED>
 <!ATTLIST EncoderProfile cameraId (0|1) #REQUIRED>
 <!ELEMENT Video EMPTY>
-<!ATTLIST Video codec (h264|h263|m4v) #REQUIRED>
+<!ATTLIST Video codec (hevc|h264|h263|m4v) #REQUIRED>
 <!ATTLIST Video bitRate CDATA #REQUIRED>
 <!ATTLIST Video width CDATA #REQUIRED>
 <!ATTLIST Video height CDATA #REQUIRED>
@@ -45,7 +45,7 @@
 <!ELEMENT EncoderOutputFileFormat EMPTY>
 <!ATTLIST EncoderOutputFileFormat name (mp4|3gp) #REQUIRED>
 <!ELEMENT VideoEncoderCap EMPTY>
-<!ATTLIST VideoEncoderCap name (h264|h263|m4v|wmv) #REQUIRED>
+<!ATTLIST VideoEncoderCap name (hevc|h264|h263|m4v) #REQUIRED>
 <!ATTLIST VideoEncoderCap enabled (true|false) #REQUIRED>
 <!ATTLIST VideoEncoderCap minBitRate CDATA #REQUIRED>
 <!ATTLIST VideoEncoderCap maxBitRate CDATA #REQUIRED>
@@ -56,7 +56,7 @@
 <!ATTLIST VideoEncoderCap minFrameRate CDATA #REQUIRED>
 <!ATTLIST VideoEncoderCap maxFrameRate CDATA #REQUIRED>
 <!ELEMENT AudioEncoderCap EMPTY>
-<!ATTLIST AudioEncoderCap name (amrnb|amrwb|aac|wma) #REQUIRED>
+<!ATTLIST AudioEncoderCap name (amrnb|amrwb|aac) #REQUIRED>
 <!ATTLIST AudioEncoderCap enabled (true|false) #REQUIRED>
 <!ATTLIST AudioEncoderCap minBitRate CDATA #REQUIRED>
 <!ATTLIST AudioEncoderCap maxBitRate CDATA #REQUIRED>
@@ -64,12 +64,6 @@
 <!ATTLIST AudioEncoderCap maxSampleRate CDATA #REQUIRED>
 <!ATTLIST AudioEncoderCap minChannels (1|2) #REQUIRED>
 <!ATTLIST AudioEncoderCap maxChannels (1|2) #REQUIRED>
-<!ELEMENT VideoDecoderCap EMPTY>
-<!ATTLIST VideoDecoderCap name (wmv) #REQUIRED>
-<!ATTLIST VideoDecoderCap enabled (true|false) #REQUIRED>
-<!ELEMENT AudioDecoderCap EMPTY>
-<!ATTLIST AudioDecoderCap name (wma) #REQUIRED>
-<!ATTLIST AudioDecoderCap enabled (true|false) #REQUIRED>
 <!ELEMENT VideoEditorCap EMPTY>
 <!ATTLIST VideoEditorCap maxInputFrameWidth CDATA #REQUIRED>
 <!ATTLIST VideoEditorCap maxInputFrameHeight CDATA #REQUIRED>
